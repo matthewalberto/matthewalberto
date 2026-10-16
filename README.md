@@ -4,7 +4,7 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 
 - **Now:** almost everything I build, I build with Claude Code. My private agent workspace has about 7,600 directed commits since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
 - **Before:** founding software engineering team at Fluent Forever ($0 to $2.5M ARR, Series A), and 15 years building the systems Australian charities and foundations use to receive and receipt gifts online.
-- **Law:** LLM (Merit), UCL. I'm not a practising lawyer; I build the software legal and finance teams use.
+- **Law:** Master of Laws, UCL Faculty of Laws. I build the software legal and finance teams use.
 - **Stack:** TypeScript and Node, Python, Flutter and Dart, Cloudflare, Firebase.
 
 #### Public tools
