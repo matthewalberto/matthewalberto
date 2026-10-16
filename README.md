@@ -1,6 +1,6 @@
 ### Matthew Alberto
 
-Software engineer and legal engineer in Tainan, Taiwan. I build agents that run on their own and do real work, and the guardrails that keep them safe. Co-founder of [Legaseek](https://legaseek.ai), legal AI for donor-restricted gifts and endowments at US colleges and universities.
+Software engineer and legal engineer from Australia. I build agents that run on their own and do real work, and the guardrails that keep them safe. Co-founder of [Legaseek](https://legaseek.ai), legal AI for donor-restricted gifts and endowments at US colleges and universities.
 
 - **Now:** almost everything I build, I build with Claude Code. My private agent workspace has about 7,600 directed commits since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
 - **Before:** founding software engineering team at Fluent Forever ($0 to $2.5M ARR, Series A), and 15 years building the systems Australian charities and foundations use to receive and receipt gifts online.
