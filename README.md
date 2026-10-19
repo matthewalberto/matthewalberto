@@ -12,6 +12,7 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 
 | Repo | What it does |
 |---|---|
+| [eval-tasks](https://github.com/matthewalberto/eval-tasks) | Evaluation tasks for AI coding agents in the Harbor format, built from real changes, with graders that check behaviour and score shortcuts 0 |
 | [claude-code-guardrails](https://github.com/matthewalberto/claude-code-guardrails) | Claude Code hooks that stop an agent repeating a known mistake, each with a self-test |
 | [agent-worktree-merge-drivers](https://github.com/matthewalberto/agent-worktree-merge-drivers) | Git merge drivers so parallel agents can append to the same logs and tables without conflicts |
 | [agent-os-starter](https://github.com/matthewalberto/agent-os-starter) | A template for organising a Claude Code workspace: pointer files, one-fact memory, skills, closed loops |
