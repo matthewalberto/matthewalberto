@@ -23,13 +23,13 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 | [media-prep](https://github.com/matthewalberto/media-prep) | Normalise audio and fit videos under upload limits |
 | [transcript-fetch](https://github.com/matthewalberto/transcript-fetch) | Transcripts from captions, with a local Whisper fallback |
 
-#### Open-source contributions (open pull requests)
+#### Open-source contributions
 
-| Project | What the fix does |
-|---|---|
-| [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) |
-| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2319](https://github.com/freelawproject/juriscraper/pull/2319) | Two court scrapers no longer return empty values from `extract_from_text`, with a new test that checks every scraper that has test data |
-| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2320](https://github.com/freelawproject/juriscraper/pull/2320) | The Tennessee workers' compensation backscraper works again, so the archive back to 1996 can be collected |
+| Project | What the fix does | Status |
+|---|---|---|
+| [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) | Open |
+| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2319](https://github.com/freelawproject/juriscraper/pull/2319) | Two court scrapers no longer return empty values from `extract_from_text`, with a new test that checks every scraper that has test data | Open |
+| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2320](https://github.com/freelawproject/juriscraper/pull/2320) | The Tennessee workers' compensation backscraper works again, so the archive back to 1996 can be collected | Open |
 
 Most of my work is in private repos; I'm happy to walk through it on a call.
 
