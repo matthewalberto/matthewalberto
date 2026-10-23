@@ -23,6 +23,12 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 | [media-prep](https://github.com/matthewalberto/media-prep) | Normalise audio and fit videos under upload limits |
 | [transcript-fetch](https://github.com/matthewalberto/transcript-fetch) | Transcripts from captions, with a local Whisper fallback |
 
+#### Gists
+
+| Gist | What it does |
+|---|---|
+| [pdf-sign-locally](https://gist.github.com/matthewalberto/812261b1d9337e376fdfc1becd400233) | Sign a PDF with your finger in the browser, then place the signature on the form's signature line, with nothing uploaded |
+
 #### Open-source contributions
 
 | Project | What the fix does | Status |
