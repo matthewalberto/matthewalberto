@@ -33,6 +33,7 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 
 | Project | What the fix does | Status |
 |---|---|---|
+| [Anki](https://github.com/ankitects/anki) [#5913](https://github.com/ankitects/anki/pull/5913) | Images copied from apps like Discord now paste as the real image instead of a broken link. | Open |
 | [Flame](https://github.com/flame-engine/flame) [#4214](https://github.com/flame-engine/flame/pull/4214) | Text boxes in the Flutter game engine can now limit how many lines they show, with the box size and typing effect following the limit. | Open |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs-rs) [#482](https://github.com/open-spaced-repetition/fsrs-rs/pull/482) | Upgrades the spaced-repetition scheduler's random number libraries and checks that its seeded simulations and training still give the same results. | Open |
 | [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) | Open |
