@@ -34,6 +34,7 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 | Project | What the fix does | Status |
 |---|---|---|
 | [Anki](https://github.com/ankitects/anki) [#5913](https://github.com/ankitects/anki/pull/5913) | Images copied from apps like Discord now paste as the real image instead of a broken link. | Open |
+| [Anki](https://github.com/ankitects/anki) [#5957](https://github.com/ankitects/anki/pull/5957) | Regex searches keep their quotes when Anki tidies the search bar, so they no longer need re-typing. | Open |
 | [Flame](https://github.com/flame-engine/flame) [#4214](https://github.com/flame-engine/flame/pull/4214) | Text boxes in the Flutter game engine can now limit how many lines they show, with the box size and typing effect following the limit. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4230](https://github.com/flame-engine/flame/pull/4230) | Combining two text styles now keeps everything the second one leaves unset, instead of resetting it to the defaults. | Open |
 | [FSRS](https://github.com/open-spaced-repetition/py-fsrs) [#159](https://github.com/open-spaced-repetition/py-fsrs/pull/159) | Randomly spread review intervals now always stay inside their intended range of days. | Open |
