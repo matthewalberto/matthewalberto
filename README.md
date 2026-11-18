@@ -2,7 +2,7 @@
 
 Software engineer and legal engineer from Sydney, Australia. I build agents that run on their own and do real work, and the guardrails that keep them safe. Co-founder of [Legaseek](https://legaseek.ai), legal AI for donor-restricted gifts and endowments at US colleges and universities.
 
-- **Now:** almost everything I build, I build with Claude Code. My private agent workspace has more than 3,500 commits co-authored with Claude Code since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
+- **Now:** almost everything I build, I build with Claude Code. My private agent workspace has more than 4,000 commits co-authored with Claude Code since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
 - **Before:** founding software engineering team at Fluent Forever ($0 to $2.5M ARR, Series A), and 15 years engineering the software systems Australian charities and foundations use to receive and receipt gifts online.
 - **Law:** Master of Laws, UCL Faculty of Laws. I build the software legal and finance teams use.
 - **Stack:** Python, TypeScript, React, Node, Astro, Tailwind, Flutter and Dart, and Rust (upstream contributions to Anki and FSRS).
@@ -35,10 +35,10 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 |---|---|---|
 | [Anki](https://github.com/ankitects/anki) [#5913](https://github.com/ankitects/anki/pull/5913) | Images copied from apps like Discord now paste as the real image instead of a broken link. | Open |
 | [Anki](https://github.com/ankitects/anki) [#5957](https://github.com/ankitects/anki/pull/5957) | Regex searches keep their quotes when Anki tidies the search bar, so they no longer need re-typing. | Open |
-| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Open |
+| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Merged Nov 2026 |
 | [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4235](https://github.com/mit-cml/appinventor-sources/pull/4235) | Dictionary blocks now refuse list position 0 instead of returning, or overwriting, a hidden list marker. | Open |
 | [TextArena](https://github.com/TextArena/TextArena) [#218](https://github.com/TextArena/TextArena/pull/218) | The SpellingBee word game now gives players the full set of distinct letters it promises, favouring common letters, instead of as few as 4 of 7. | Open |
-| [Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Open |
+| [Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Merged Nov 2026 |
 | [undici](https://github.com/nodejs/undici) [#6217](https://github.com/nodejs/undici/pull/6217) | Cookie expiry dates in Node.js's HTTP client are now read the way the cookie standard says, so the same cookie no longer expires at a different time depending on the computer's time zone. | Open |
 | [Flame](https://github.com/flame-engine/flame) [#4214](https://github.com/flame-engine/flame/pull/4214) | Text boxes in the Flutter game engine can now limit how many lines they show, with the box size and typing effect following the limit. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4230](https://github.com/flame-engine/flame/pull/4230) | Combining two text styles now keeps everything the second one leaves unset, instead of resetting it to the defaults. | Merged Nov 2026 |
