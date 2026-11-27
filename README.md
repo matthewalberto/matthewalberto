@@ -78,6 +78,7 @@ Environments and harnesses for testing AI agents.
 |---|---|---|
 | [TextArena](https://github.com/TextArena/TextArena) [#221](https://github.com/TextArena/TextArena/pull/221) | The triangle peg-jumping game now allows only straight-line jumps, so it no longer accepts impossible moves or ends a game while a move is still left. | Open |
 | [TextArena](https://github.com/TextArena/TextArena) [#218](https://github.com/TextArena/TextArena/pull/218) | The SpellingBee word game now gives players the full set of distinct letters it promises, favouring common letters, instead of as few as 4 of 7. | Open |
+| [Farama Minigrid](https://github.com/Farama-Foundation/Minigrid) [#562](https://github.com/Farama-Foundation/Minigrid/pull/562) | The grid-world environments now give a state the same hash after the agent walks away and back, so state counting for exploration no longer sees one state as two. | Open |
 | [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) | Open |
 
 ##### Web and legal data
