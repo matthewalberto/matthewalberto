@@ -56,12 +56,12 @@ Game engines and block-coding tools that children learn with.
 | [Flame](https://github.com/flame-engine/flame) [#4214](https://github.com/flame-engine/flame/pull/4214) | Text boxes in the Flutter game engine can now limit how many lines they show, with the box size and typing effect following the limit. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4230](https://github.com/flame-engine/flame/pull/4230) | Combining two text styles now keeps everything the second one leaves unset, instead of resetting it to the defaults. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4256](https://github.com/flame-engine/flame/pull/4256) | Background music stays stopped when a game stops it while the track is still loading, instead of starting anyway. | Open |
-| [Flutter](https://github.com/flutter/packages) [#13801](https://github.com/flutter/packages/pull/13801) | Google's Material date and time picker themes can now be copied with the app's own input decoration theme, which before did not compile. | Open |
+| [Google Flutter](https://github.com/flutter/packages) [#13801](https://github.com/flutter/packages/pull/13801) | Google's Material date and time picker themes can now be copied with the app's own input decoration theme, which before did not compile. | Open |
 | [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4247](https://github.com/mit-cml/appinventor-sources/pull/4247) | The number block with a binary, octal or hex choice no longer turns a negative number or a fraction into broken code when its base is changed. | Open |
 | [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4235](https://github.com/mit-cml/appinventor-sources/pull/4235) | Dictionary blocks now refuse list position 0 instead of returning, or overwriting, a hidden list marker. | Open |
-| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10706](https://github.com/RaspberryPiFoundation/blockly/pull/10706) | Dropdown options that share a first word are now shortened the same way whichever option comes first. | Merged Nov 2026 |
-| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Merged Nov 2026 |
-| [Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Merged Nov 2026 |
+| [Raspberry Pi Foundation Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10706](https://github.com/RaspberryPiFoundation/blockly/pull/10706) | Dropdown options that share a first word are now shortened the same way whichever option comes first. | Merged Nov 2026 |
+| [Raspberry Pi Foundation Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Merged Nov 2026 |
+| [Learning Equality Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Merged Nov 2026 |
 
 ##### Languages
 Formatting numbers, dates and text correctly in every language.
@@ -83,9 +83,9 @@ Environments and harnesses for testing AI agents.
 
 | Project | What the fix does | Status |
 |---|---|---|
-| [undici](https://github.com/nodejs/undici) [#6217](https://github.com/nodejs/undici/pull/6217) | Cookie expiry dates in Node.js's HTTP client are now read the way the cookie standard says, so the same cookie no longer expires at a different time depending on the computer's time zone. | Open |
-| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2319](https://github.com/freelawproject/juriscraper/pull/2319) | Two court scrapers no longer return empty values from `extract_from_text`, with a new test that checks every scraper that has test data | Open |
-| [Juriscraper](https://github.com/freelawproject/juriscraper) [#2320](https://github.com/freelawproject/juriscraper/pull/2320) | The Tennessee workers' compensation backscraper works again, so the archive back to 1996 can be collected | Open |
+| [Node.js undici](https://github.com/nodejs/undici) [#6217](https://github.com/nodejs/undici/pull/6217) | Cookie expiry dates in Node.js's HTTP client are now read the way the cookie standard says, so the same cookie no longer expires at a different time depending on the computer's time zone. | Open |
+| [Free Law Project Juriscraper](https://github.com/freelawproject/juriscraper) [#2319](https://github.com/freelawproject/juriscraper/pull/2319) | Two court scrapers no longer return empty values from `extract_from_text`, with a new test that checks every scraper that has test data | Open |
+| [Free Law Project Juriscraper](https://github.com/freelawproject/juriscraper) [#2320](https://github.com/freelawproject/juriscraper/pull/2320) | The Tennessee workers' compensation backscraper works again, so the archive back to 1996 can be collected | Open |
 
 Most of my work is in private repos; I'm happy to walk through it on a call.
 
