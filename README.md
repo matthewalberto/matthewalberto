@@ -45,7 +45,7 @@ Spaced repetition and flashcards: the scheduling science behind review apps.
 | [Anki](https://github.com/ankitects/anki) [#5913](https://github.com/ankitects/anki/pull/5913) | Images copied from apps like Discord now paste as the real image instead of a broken link. | Open |
 | [Anki](https://github.com/ankitects/anki) [#5957](https://github.com/ankitects/anki/pull/5957) | Regex searches keep their quotes when Anki tidies the search bar, so they no longer need re-typing. | Open |
 | [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect) [6164dd7](https://git.sr.ht/~foosoft/anki-connect/commit/6164dd7) | Adding a field whose name differs from an existing one only by capital letters now gives a clear error, instead of quietly creating a broken "name+" field. | Merged Nov 2026 |
-| [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect) (emailed patch) | Adding a tag a note already has no longer re-saves the note, so it is not queued for sync or added to the undo history for nothing. | Sent Nov 2026 |
+| [AnkiConnect](https://github.com/FooSoft/anki-connect) [f0d96a8](https://github.com/FooSoft/anki-connect/commit/f0d96a8a) | Adding a tag a note already has no longer re-saves the note, so it is not queued for sync or added to the undo history for nothing. | Merged Nov 2026 |
 
 ##### Games and kids' coding
 Game engines and block-coding tools that children learn with.
