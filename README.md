@@ -31,28 +31,56 @@ Software engineer and legal engineer from Sydney, Australia. I build agents that
 
 #### Open-source contributions
 
+Small, tested fixes to open-source tools for learning, games, languages and AI evaluation.
+
+##### Learning and memory
+Spaced repetition and flashcards: the scheduling science behind review apps.
+
 | Project | What the fix does | Status |
 |---|---|---|
+| [FSRS](https://github.com/open-spaced-repetition/fsrs-rs) [#489](https://github.com/open-spaced-repetition/fsrs-rs/pull/489) | The scheduler's simulator no longer badly underestimates how long reviews take for people with very large review histories. | Merged Nov 2026 |
+| [FSRS](https://github.com/open-spaced-repetition/py-fsrs) [#159](https://github.com/open-spaced-repetition/py-fsrs/pull/159) | Randomly spread review intervals now always stay inside their intended range of days. | Merged Nov 2026 |
+| [FSRS](https://github.com/open-spaced-repetition/fsrs-rs) [#482](https://github.com/open-spaced-repetition/fsrs-rs/pull/482) | Upgrades the spaced-repetition scheduler's random number libraries and checks that its seeded simulations and training still give the same results. | Merged Nov 2026 |
 | [Anki](https://github.com/ankitects/anki) [#5913](https://github.com/ankitects/anki/pull/5913) | Images copied from apps like Discord now paste as the real image instead of a broken link. | Open |
 | [Anki](https://github.com/ankitects/anki) [#5957](https://github.com/ankitects/anki/pull/5957) | Regex searches keep their quotes when Anki tidies the search bar, so they no longer need re-typing. | Open |
 | [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect) [6164dd7](https://git.sr.ht/~foosoft/anki-connect/commit/6164dd7) | Adding a field whose name differs from an existing one only by capital letters now gives a clear error, instead of quietly creating a broken "name+" field. | Merged Nov 2026 |
 | [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect) (emailed patch) | Adding a tag a note already has no longer re-saves the note, so it is not queued for sync or added to the undo history for nothing. | Sent Nov 2026 |
-| [Babel](https://github.com/python-babel/babel) [#1498](https://github.com/python-babel/babel/pull/1498) | Negative numbers use each language's own minus sign (as in Finnish, Swedish, Hebrew and Arabic), and numbers written that way can be read back. | Open |
-| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10706](https://github.com/RaspberryPiFoundation/blockly/pull/10706) | Dropdown options that share a first word are now shortened the same way whichever option comes first. | Merged Nov 2026 |
-| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Merged Nov 2026 |
-| [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4247](https://github.com/mit-cml/appinventor-sources/pull/4247) | The number block with a binary, octal or hex choice no longer turns a negative number or a fraction into broken code when its base is changed. | Open |
-| [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4235](https://github.com/mit-cml/appinventor-sources/pull/4235) | Dictionary blocks now refuse list position 0 instead of returning, or overwriting, a hidden list marker. | Open |
-| [TextArena](https://github.com/TextArena/TextArena) [#221](https://github.com/TextArena/TextArena/pull/221) | The triangle peg-jumping game now allows only straight-line jumps, so it no longer accepts impossible moves or ends a game while a move is still left. | Open |
-| [TextArena](https://github.com/TextArena/TextArena) [#218](https://github.com/TextArena/TextArena/pull/218) | The SpellingBee word game now gives players the full set of distinct letters it promises, favouring common letters, instead of as few as 4 of 7. | Open |
-| [Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Merged Nov 2026 |
-| [undici](https://github.com/nodejs/undici) [#6217](https://github.com/nodejs/undici/pull/6217) | Cookie expiry dates in Node.js's HTTP client are now read the way the cookie standard says, so the same cookie no longer expires at a different time depending on the computer's time zone. | Open |
+
+##### Games and kids' coding
+Game engines and block-coding tools that children learn with.
+
+| Project | What the fix does | Status |
+|---|---|---|
 | [Flame](https://github.com/flame-engine/flame) [#4241](https://github.com/flame-engine/flame/pull/4241) | A game timer set to tick a fixed number of times now really starts again when restarted, instead of staying finished. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4214](https://github.com/flame-engine/flame/pull/4214) | Text boxes in the Flutter game engine can now limit how many lines they show, with the box size and typing effect following the limit. | Merged Nov 2026 |
 | [Flame](https://github.com/flame-engine/flame) [#4230](https://github.com/flame-engine/flame/pull/4230) | Combining two text styles now keeps everything the second one leaves unset, instead of resetting it to the defaults. | Merged Nov 2026 |
-| [FSRS](https://github.com/open-spaced-repetition/fsrs-rs) [#489](https://github.com/open-spaced-repetition/fsrs-rs/pull/489) | The scheduler's simulator no longer badly underestimates how long reviews take for people with very large review histories. | Merged Nov 2026 |
-| [FSRS](https://github.com/open-spaced-repetition/py-fsrs) [#159](https://github.com/open-spaced-repetition/py-fsrs/pull/159) | Randomly spread review intervals now always stay inside their intended range of days. | Merged Nov 2026 |
-| [FSRS](https://github.com/open-spaced-repetition/fsrs-rs) [#482](https://github.com/open-spaced-repetition/fsrs-rs/pull/482) | Upgrades the spaced-repetition scheduler's random number libraries and checks that its seeded simulations and training still give the same results. | Merged Nov 2026 |
+| [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4247](https://github.com/mit-cml/appinventor-sources/pull/4247) | The number block with a binary, octal or hex choice no longer turns a negative number or a fraction into broken code when its base is changed. | Open |
+| [MIT App Inventor](https://github.com/mit-cml/appinventor-sources) [#4235](https://github.com/mit-cml/appinventor-sources/pull/4235) | Dictionary blocks now refuse list position 0 instead of returning, or overwriting, a hidden list marker. | Open |
+| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10706](https://github.com/RaspberryPiFoundation/blockly/pull/10706) | Dropdown options that share a first word are now shortened the same way whichever option comes first. | Merged Nov 2026 |
+| [Blockly](https://github.com/RaspberryPiFoundation/blockly) [#10682](https://github.com/RaspberryPiFoundation/blockly/pull/10682) | Duplicating a block nested inside another now places the copy beside it, instead of pushing the original stack away. | Merged Nov 2026 |
+| [Kolibri](https://github.com/learningequality/kolibri) [#15894](https://github.com/learningequality/kolibri/pull/15894) | A teacher's notifications page now rejects an invalid result limit with a clear error instead of crashing the server. | Merged Nov 2026 |
+
+##### Languages
+Formatting numbers, dates and text correctly in every language.
+
+| Project | What the fix does | Status |
+|---|---|---|
+| [Babel](https://github.com/python-babel/babel) [#1498](https://github.com/python-babel/babel/pull/1498) | Negative numbers use each language's own minus sign (as in Finnish, Swedish, Hebrew and Arabic), and numbers written that way can be read back. | Open |
+
+##### AI evaluation
+Environments and harnesses for testing AI agents.
+
+| Project | What the fix does | Status |
+|---|---|---|
+| [TextArena](https://github.com/TextArena/TextArena) [#221](https://github.com/TextArena/TextArena/pull/221) | The triangle peg-jumping game now allows only straight-line jumps, so it no longer accepts impossible moves or ends a game while a move is still left. | Open |
+| [TextArena](https://github.com/TextArena/TextArena) [#218](https://github.com/TextArena/TextArena/pull/218) | The SpellingBee word game now gives players the full set of distinct letters it promises, favouring common letters, instead of as few as 4 of 7. | Open |
 | [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) | Open |
+
+##### Web and legal data
+
+| Project | What the fix does | Status |
+|---|---|---|
+| [undici](https://github.com/nodejs/undici) [#6217](https://github.com/nodejs/undici/pull/6217) | Cookie expiry dates in Node.js's HTTP client are now read the way the cookie standard says, so the same cookie no longer expires at a different time depending on the computer's time zone. | Open |
 | [Juriscraper](https://github.com/freelawproject/juriscraper) [#2319](https://github.com/freelawproject/juriscraper/pull/2319) | Two court scrapers no longer return empty values from `extract_from_text`, with a new test that checks every scraper that has test data | Open |
 | [Juriscraper](https://github.com/freelawproject/juriscraper) [#2320](https://github.com/freelawproject/juriscraper/pull/2320) | The Tennessee workers' compensation backscraper works again, so the archive back to 1996 can be collected | Open |
 
