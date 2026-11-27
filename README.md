@@ -70,6 +70,7 @@ Formatting numbers, dates and text correctly in every language.
 |---|---|---|
 | [Babel](https://github.com/python-babel/babel) [#1498](https://github.com/python-babel/babel/pull/1498) | Negative numbers use each language's own minus sign (as in Finnish, Swedish, Hebrew and Arabic), and numbers written that way can be read back. | Open |
 | [Google BudouX](https://github.com/google/budoux) [#1565](https://github.com/google/budoux/pull/1565) | Google's line breaker for Chinese, Japanese and Thai no longer splits a character from its accent mark or breaks an emoji in two. | Open |
+| [Mozilla Pontoon](https://github.com/mozilla/pontoon) [#4691](https://github.com/mozilla/pontoon/pull/4691) | Mozilla's translation platform now publishes the correct type for every field in its API description, instead of calling counts, flags and lists text. | Open |
 
 ##### AI evaluation
 Environments and harnesses for testing AI agents.
