@@ -2,7 +2,7 @@
 
 Software engineer and legal engineer from Sydney, Australia. I build agents that run on their own and do real work, and the guardrails that keep them safe. Co-founder of [Legaseek](https://legaseek.ai), legal AI for donor-restricted gifts and endowments at US colleges and universities.
 
-- **Now:** almost everything I build, I build with Claude Code. My private agent workspace has more than 4,000 commits co-authored with Claude Code since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
+- **Now:** almost everything I build, I build with Claude Code. My private agent workspace has more than 4,500 commits co-authored with Claude Code since May 2026: scheduled headless agents, 100+ reusable skills, git-tracked memory and hooks that block repeat mistakes.
 - **Before:** founding software engineering team at Fluent Forever ($0 to $2.5M ARR, Series A), and 15 years engineering the software systems Australian charities and foundations use to receive and receipt gifts online.
 - **Law:** Master of Laws, UCL Faculty of Laws. I build the software legal and finance teams use.
 - **Stack:** Python, TypeScript, React, Node, Astro, Tailwind, Flutter and Dart, and Rust (upstream contributions to Anki and FSRS).
@@ -69,8 +69,8 @@ Formatting numbers, dates and text correctly in every language.
 | Project | What the fix does | Status |
 |---|---|---|
 | [Babel](https://github.com/python-babel/babel) [#1498](https://github.com/python-babel/babel/pull/1498) | Negative numbers use each language's own minus sign (as in Finnish, Swedish, Hebrew and Arabic), and numbers written that way can be read back. | Open |
-| [Google BudouX](https://github.com/google/budoux) [#1565](https://github.com/google/budoux/pull/1565) | Google's line breaker for Chinese, Japanese and Thai no longer splits a character from its accent mark or breaks an emoji in two. | Open |
-| [Mozilla Pontoon](https://github.com/mozilla/pontoon) [#4691](https://github.com/mozilla/pontoon/pull/4691) | Mozilla's translation platform now publishes the correct type for every field in its API description, instead of calling counts, flags and lists text. | Open |
+| [Google BudouX](https://github.com/google/budoux) [#1565](https://github.com/google/budoux/pull/1565) | Google's line breaker for Chinese, Japanese and Thai no longer splits a character from its accent mark or breaks an emoji in two. | Merged Nov 2026 |
+| [Mozilla Pontoon](https://github.com/mozilla/pontoon) [#4691](https://github.com/mozilla/pontoon/pull/4691) | Mozilla's translation platform now publishes the correct type for every field in its API description, instead of calling counts, flags and lists text. | Merged Nov 2026 |
 
 ##### AI evaluation
 Environments and harnesses for testing AI agents.
@@ -79,7 +79,7 @@ Environments and harnesses for testing AI agents.
 |---|---|---|
 | [TextArena](https://github.com/TextArena/TextArena) [#221](https://github.com/TextArena/TextArena/pull/221) | The triangle peg-jumping game now allows only straight-line jumps, so it no longer accepts impossible moves or ends a game while a move is still left. | Open |
 | [TextArena](https://github.com/TextArena/TextArena) [#218](https://github.com/TextArena/TextArena/pull/218) | The SpellingBee word game now gives players the full set of distinct letters it promises, favouring common letters, instead of as few as 4 of 7. | Open |
-| [Farama Minigrid](https://github.com/Farama-Foundation/Minigrid) [#562](https://github.com/Farama-Foundation/Minigrid/pull/562) | The grid-world environments now give a state the same hash after the agent walks away and back, so state counting for exploration no longer sees one state as two. | Open |
+| [Farama Minigrid](https://github.com/Farama-Foundation/Minigrid) [#562](https://github.com/Farama-Foundation/Minigrid/pull/562) | The grid-world environments now give a state the same hash after the agent walks away and back, so state counting for exploration no longer sees one state as two. | Merged Nov 2026 |
 | [Harbor](https://github.com/harbor-framework/harbor) [#3751](https://github.com/harbor-framework/harbor/pull/3751) | The terminus-2 agent now says tmux is missing instead of "Error: None" in an offline task. Found while running my own eval task; issue [#3750](https://github.com/harbor-framework/harbor/issues/3750) | Open |
 
 ##### Web and legal data
